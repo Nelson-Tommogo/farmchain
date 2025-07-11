@@ -167,7 +167,11 @@ export default function SignupPage() {
             </div>
           </div>
 
-          <InternetIdentityAuth />
+          <InternetIdentityAuth onClose={function (): void {
+            throw new Error("Function not implemented.")
+          } } onSuccess={function (): void {
+            throw new Error("Function not implemented.")
+          } } />
 
           <div className="text-center text-sm text-gray-600">
             Already have an account?{" "}
